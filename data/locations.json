@@ -1,0 +1,20 @@
+{
+    "locations": [
+        {
+            "name": "Neon District",
+            "description": "A bustling area filled with bright lights and dark alleys",
+            "danger_level": 2,
+            "connected_to": ["Tech Market", "Undercity"],
+            "possible_items": ["Energy Cell", "Data Shard"],
+            "requires_keycard": false
+        },
+        {
+            "name": "Tech Market",
+            "description": "Black market for cybernetic enhancements",
+            "danger_level": 1,
+            "connected_to": ["Neon District"],
+            "possible_items": ["Cybernetic Implant", "Repair Kit"],
+            "requires_keycard": false
+        }
+    ]
+}
